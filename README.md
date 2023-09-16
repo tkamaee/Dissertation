@@ -3,7 +3,6 @@
 # This repository contains code used for processing fluorescence data, generating timestamps, and plotting graphs within the MSc project "An investigation into the relevance of a blood brain barrier crossing adeno-associated virus vector for in vivo calcium imaging" 
 #  
 # The general pipeline for processing data was as follows:
-#
 # 1) unixx_pixel_intensities (Used to convert avi files to 3D matrices).
 # 2) no_TS_dfof (Used to generate df/f matrices, and produce df/f plots without timestamps).
 # 3) testy (Used to perform continuous wavelt transform, visual df/f plots overalyed with scalograms, adjust parameters, and generate predicted timestamps).
